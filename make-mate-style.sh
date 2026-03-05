@@ -760,6 +760,28 @@ sys_style_config_install_for_colloid () {
 dconf load / << __EOF__
 
 
+[org/mate/desktop/interface]
+gtk-theme='Colloid-Dark'
+icon-theme='Colloid-Dark'
+
+
+[org/mate/desktop/peripherals/mouse]
+cursor-theme='Colloid-dark-cursors'
+cursor-size=24
+
+
+[org/mate/marco/general]
+theme='Colloid-Dark'
+
+
+__EOF__
+
+
+
+
+dconf load / << __EOF__
+
+
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Colloid-Dark'
