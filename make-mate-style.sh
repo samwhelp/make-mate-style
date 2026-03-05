@@ -1379,6 +1379,28 @@ sys_style_config_install_for_graphite () {
 dconf load / << __EOF__
 
 
+[org/mate/desktop/interface]
+gtk-theme='Graphite-Dark'
+icon-theme='GreyStone-Circle'
+
+
+[org/mate/desktop/peripherals/mouse]
+cursor-theme='Graphite-dark-cursors'
+cursor-size=24
+
+
+[org/mate/marco/general]
+theme='Graphite-Dark'
+
+
+__EOF__
+
+
+
+
+dconf load / << __EOF__
+
+
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Graphite-Dark'
