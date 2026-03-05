@@ -11,8 +11,8 @@
 ##
 ## ## Link
 ##
-## * https://github.com/samwhelp/make-gnome-shell-layout-wincity/blob/main/part/make-mate-style/make-mate-style.sh
-## * https://raw.githubusercontent.com/samwhelp/make-gnome-shell-layout-wincity/refs/heads/main/part/make-mate-style/make-mate-style.sh
+## * https://github.com/samwhelp/make-mate-style/blob/main/make-mate-style.sh
+## * https://raw.githubusercontent.com/samwhelp/make-mate-style/refs/heads/main/make-mate-style.sh
 ##
 
 
