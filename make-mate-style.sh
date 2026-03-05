@@ -79,21 +79,21 @@ is_command_exist () {
 ## ## Portal / Style
 ##
 
-portal_gnome_shell_style_install () {
+portal_mate_style_install () {
 
 	echo
 	echo
 	echo "##"
-	echo "## ## portal_gnome_shell_style_install"
+	echo "## ## portal_mate_style_install"
 	echo "##"
 	echo
 	echo
 
-	mod_gnome_shell_style_install_prerun
+	mod_mate_style_install_prerun
 
-	mod_gnome_shell_style_install_mainrun
+	mod_mate_style_install_mainrun
 
-	mod_gnome_shell_style_install_postrun
+	mod_mate_style_install_postrun
 
 
 	return 0
@@ -106,7 +106,7 @@ portal_gnome_shell_style_install () {
 ## ## Model / Style
 ##
 
-mod_gnome_shell_style_install_prerun () {
+mod_mate_style_install_prerun () {
 
 	mod_style_install_prepare
 
@@ -114,7 +114,7 @@ mod_gnome_shell_style_install_prerun () {
 
 }
 
-mod_gnome_shell_style_install_mainrun () {
+mod_mate_style_install_mainrun () {
 
 	mod_style_install
 
@@ -122,7 +122,7 @@ mod_gnome_shell_style_install_mainrun () {
 
 }
 
-mod_gnome_shell_style_install_postrun () {
+mod_mate_style_install_postrun () {
 
 	return 0
 
@@ -1945,9 +1945,9 @@ sys_theme_install_qogir_gtk_theme_via_wget_archive () {
 ## ## Portal
 ##
 
-portal_gnome_shell_install () {
+portal_mate_install () {
 
-	portal_gnome_shell_style_install
+	portal_mate_style_install
 
 }
 
@@ -1958,7 +1958,7 @@ portal_gnome_shell_install () {
 
 __main__ () {
 
-	portal_gnome_shell_install
+	portal_mate_install
 
 }
 
