@@ -1541,6 +1541,28 @@ sys_style_config_install_for_jasper () {
 dconf load / << __EOF__
 
 
+[org/mate/desktop/interface]
+gtk-theme='Jasper-Dark'
+icon-theme='QuestX-Teal'
+
+
+[org/mate/desktop/peripherals/mouse]
+cursor-theme='Vimix-cursors'
+cursor-size=24
+
+
+[org/mate/marco/general]
+theme='Jasper-Dark'
+
+
+__EOF__
+
+
+
+
+dconf load / << __EOF__
+
+
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Jasper-Dark'
