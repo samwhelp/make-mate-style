@@ -977,6 +977,28 @@ sys_style_config_install_for_vimix () {
 dconf load / << __EOF__
 
 
+[org/mate/desktop/interface]
+gtk-theme='Vimix-dark-ruby'
+icon-theme='Citrus-red-dark'
+
+
+[org/mate/desktop/peripherals/mouse]
+cursor-theme='Vimix-cursors'
+cursor-size=24
+
+
+[org/mate/marco/general]
+theme='Vimix-dark-ruby'
+
+
+__EOF__
+
+
+
+
+dconf load / << __EOF__
+
+
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Vimix-dark-ruby'
