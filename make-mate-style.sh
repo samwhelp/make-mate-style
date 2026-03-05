@@ -1910,6 +1910,28 @@ sys_style_config_install_for_lavanda () {
 dconf load / << __EOF__
 
 
+[org/mate/desktop/interface]
+gtk-theme='Lavanda-Sea-Dark'
+icon-theme='Citrus-red-dark'
+
+
+[org/mate/desktop/peripherals/mouse]
+cursor-theme='Vimix-cursors'
+cursor-size=24
+
+
+[org/mate/marco/general]
+theme='Lavanda-Sea-Dark'
+
+
+__EOF__
+
+
+
+
+dconf load / << __EOF__
+
+
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
 gtk-theme='Lavanda-Sea-Dark'
