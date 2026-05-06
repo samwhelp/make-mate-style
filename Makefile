@@ -141,3 +141,8 @@ distro-archlinux-style-vimix:
 distro-voidlinux-style-vimix:
 	REF_MASTER_DISTRO=voidlinux REF_MASTER_STYLE=vimix ./make-mate-style.sh
 .PHONY: distro-voidlinux-style-vimix
+
+
+distro-solus-style-vimix:
+	REF_MASTER_DISTRO=solus REF_MASTER_STYLE=vimix ./make-mate-style.sh
+.PHONY: distro-solus-style-vimix
