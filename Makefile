@@ -81,6 +81,11 @@ style-qogir:
 
 
 
+distro-any:
+	REF_MASTER_DISTRO=any ./make-mate-style.sh
+.PHONY: distro-any
+
+
 distro-ubuntu:
 	REF_MASTER_DISTRO=ubuntu ./make-mate-style.sh
 .PHONY: distro-ubuntu
@@ -104,6 +109,11 @@ distro-archlinux:
 distro-voidlinux:
 	REF_MASTER_DISTRO=voidlinux ./make-mate-style.sh
 .PHONY: distro-voidlinux
+
+
+distro-solus:
+	REF_MASTER_DISTRO=solus ./make-mate-style.sh
+.PHONY: distro-solus
 
 
 
