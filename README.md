@@ -107,6 +107,7 @@ REF_MASTER_STYLE=vimix bash <(curl -L https://raw.githubusercontent.com/samwhelp
 | `fedora`            |
 | `archlinux`         |
 | `voidlinux`         |
+| `solus`             |
 
 > We can use `REF_MASTER_DISTRO=any` to skip the step of installing required packages.
 
